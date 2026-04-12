@@ -21,17 +21,6 @@ A comprehensive Python library for computing and visualizing phased array antenn
 - **Subarray Support**: Subarray-level beamforming with quantized phase shifters
 - **Data Export**: CSV, JSON, and NumPy formats for patterns, weights, and geometry
 
-## Try it Online
-
-**[Launch Interactive Web App](https://phased-array-antenna-model.streamlit.app/)** - No installation required!
-
-The Streamlit app provides an interactive interface for:
-- Designing array geometries (rectangular, triangular, circular, concentric rings, elliptical)
-- Beam steering with real-time pattern visualization
-- Amplitude tapering with sidelobe comparison
-- Impairment simulation (phase quantization, element failures, mutual coupling)
-- UV-space pattern analysis
-- Export data to CSV for further analysis
 
 ## Installation
 
@@ -54,8 +43,8 @@ pip install "phased-array-modeling[full]"
 ### For development
 
 ```bash
-git clone https://github.com/jman4162/Phased-Array-Antenna-Model.git
-cd Phased-Array-Antenna-Model
+git clone https://github.com/martinjenny123/Antenna-Array-Pattern-Synthesis-Tool.git
+cd Antenna Array Pattern Synthesis Tool
 pip install -e ".[dev]"
 ```
 
@@ -222,22 +211,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this library in your research, please cite:
-
-```bibtex
-@software{phased_array,
-  author = {Hodge, John},
-  title = {Phased Array Antenna Modeling},
-  url = {https://github.com/jman4162/Phased-Array-Antenna-Model},
-  year = {2026}
-}
-```
-
-## Contact
-
-John Hodge - jah70@vt.edu
-
-Project Link: [https://github.com/jman4162/Phased-Array-Antenna-Model](https://github.com/jman4162/Phased-Array-Antenna-Model)
