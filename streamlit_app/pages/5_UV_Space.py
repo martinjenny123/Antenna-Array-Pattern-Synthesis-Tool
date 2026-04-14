@@ -9,7 +9,7 @@ import phased_array as pa
 
 st.set_page_config(page_title="UV-Space", page_icon="🌐", layout="wide")
 
-st.title("🌐 UV-Space Visualization")
+st.title(" UV-Space Visualization")
 st.markdown("""
 Visualize the radiation pattern in UV-space (direction cosines).
 This representation clearly shows the visible region and grating lobes.

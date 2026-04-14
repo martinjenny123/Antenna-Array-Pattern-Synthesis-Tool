@@ -9,7 +9,7 @@ import phased_array as pa
 
 st.set_page_config(page_title="Array Design", page_icon="🔲", layout="wide")
 
-st.title("🔲 Array Design")
+st.title("Array Design")
 st.markdown("Create and configure your phased array geometry.")
 
 # Store geometry in session state

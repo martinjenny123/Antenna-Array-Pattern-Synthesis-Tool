@@ -9,7 +9,7 @@ import phased_array as pa
 
 st.set_page_config(page_title="Tapering", page_icon="📊", layout="wide")
 
-st.title("📊 Amplitude Tapering")
+st.title(" Amplitude Tapering")
 st.markdown("Apply window functions to reduce sidelobes at the cost of beamwidth and efficiency.")
 
 # Check for geometry

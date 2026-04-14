@@ -9,7 +9,7 @@ import phased_array as pa
 
 st.set_page_config(page_title="Beam Steering", page_icon="🎯", layout="wide")
 
-st.title("🎯 Beam Steering")
+st.title(" Beam Steering")
 st.markdown("Control beam direction and visualize radiation patterns.")
 
 # Check for geometry
