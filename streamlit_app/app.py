@@ -64,14 +64,6 @@ Use the sidebar to navigate between different tools:
 6. Use **Wideband/TTD** for true-time delay and hybrid beamforming
 
 ---
-
-### About
-
-Built with [Streamlit](https://streamlit.io) and the
-[phased_array](https://github.com/jman4162/Phased-Array-Antenna-Model) Python package.
-
-**Author:** John Hodge
-**License:** MIT
 """)
 
 # Sidebar info
@@ -80,7 +72,5 @@ st.sidebar.success("Select a page above to get started!")
 st.sidebar.markdown("---")
 st.sidebar.markdown("""
 ### Resources
-- [GitHub Repository](https://github.com/jman4162/Phased-Array-Antenna-Model)
-- [Demo Notebook](https://colab.research.google.com/github/jman4162/Phased-Array-Antenna-Model/blob/main/Phased_Array_Demo.ipynb)
-- [Documentation](https://github.com/jman4162/Phased-Array-Antenna-Model#readme)
+- [GitHub Repository](https://github.com/martinjenny123/Antenna-Array-Pattern-Synthesis-Tool)
 """)
