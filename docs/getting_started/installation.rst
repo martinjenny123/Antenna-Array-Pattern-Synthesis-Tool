@@ -42,8 +42,8 @@ To install the latest development version from GitHub:
 
 .. code-block:: bash
 
-   git clone https://github.com/jman4162/Phased-Array-Antenna-Model.git
-   cd Phased-Array-Antenna-Model
+   git clone https://github.com/martinjenny123/Antenna-Array-Pattern-Synthesis-Tool.git
+   cd Antenna-Array-Pattern-Synthesis-Tool
    pip install -e .
 
 For development with all dependencies:

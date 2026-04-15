@@ -81,14 +81,8 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/jman4162/Phased-Array-Antenna-Model",
+            "url": "https://github.com/martinjenny123/Antenna-Array-Pattern-Synthesis-Tool",
             "icon": "fa-brands fa-github",
-            "type": "fontawesome",
-        },
-        {
-            "name": "PyPI",
-            "url": "https://pypi.org/project/phased-array-modeling/",
-            "icon": "fa-solid fa-box",
             "type": "fontawesome",
         },
     ],
@@ -103,8 +97,8 @@ html_theme_options = {
 }
 
 html_context = {
-    "github_user": "jman4162",
-    "github_repo": "Phased-Array-Antenna-Model",
+    "github_user": "martinjenny123",
+    "github_repo": "Antenna-Array-Pattern-Synthesis-Tool",
     "github_version": "main",
     "doc_path": "docs",
 }
