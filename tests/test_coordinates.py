@@ -9,7 +9,6 @@ import phased_array as pa
 
 class TestAntennaRadarConversion:
     """Tests for antenna to/from radar coordinate conversion."""
-
     def test_boresight_conversion(self):
         """Boresight should convert correctly."""
         az, el = pa.antenna_to_radar(0.0, 0.0)

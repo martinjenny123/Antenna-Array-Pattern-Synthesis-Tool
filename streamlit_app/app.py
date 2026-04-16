@@ -1,44 +1,44 @@
 """
-Phased Array Antenna Designer - Interactive Streamlit App
+Antenna Array Pattern Synthesis Tool - Interactive Streamlit App
 
 Main landing page with overview and navigation.
 """
 
-import streamlit as st
+import streamlit as st 
 
 st.set_page_config(
-    page_title="Phased Array Designer",
+    page_title="Antenna Array Pattern Synthesis Tool",
     page_icon="📡",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-st.title(" Phased Array Antenna Designer")
+st.title(" Antenna Array Pattern Synthesis Tool")
 
 st.markdown("""
-Welcome to the **Phased Array Antenna Designer** - an interactive tool for designing,
+Welcome to the **Antenna Array Pattern Synthesis Tool** - an interactive tool for designing,
 analyzing, and visualizing phased array antenna systems.
 
 ### Features
 
 Use the sidebar to navigate between different tools:
 
-1. **🔲 Array Design** - Create and configure array geometries
+1. **Array Design** - Create and configure array geometries
    - Rectangular, triangular, circular arrays
    - Adjust element count and spacing
    - Visualize element positions
 
-2. **🎯 Beam Steering** - Control beam direction
+2. **Beam Steering** - Control beam direction
    - Interactive theta/phi sliders
    - Real-time pattern updates
    - E-plane and H-plane cuts
 
-3. **📊 Tapering** - Apply amplitude tapers for sidelobe control
+3. **Tapering** - Apply amplitude tapers for sidelobe control
    - Taylor, Chebyshev, Hamming windows
    - Compare taper efficiency
    - See sidelobe reduction
 
-4. **🌐 UV-Space** - Visualize in direction cosine space
+4. **UV-Space** - Visualize in direction cosine space
    - See visible region
    - Identify grating lobes
    - Interactive Plotly plots
