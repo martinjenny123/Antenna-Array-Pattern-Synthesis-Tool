@@ -267,6 +267,7 @@ if st.session_state.geometry is not None:
                     'Est. Beamwidth Y (deg)': bw_y if bw_y is not None else 'N/A',
                 },
                 array_params=params
+
             )
             st.download_button(
                 label="Download Summary Report",
